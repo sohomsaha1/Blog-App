@@ -3,6 +3,8 @@ import { createStackNavigator } from "@react-navigation/stack";
 import Home from "../screens/Home";
 
 const Stack = createStackNavigator();
+
+function Routes() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
@@ -13,6 +15,7 @@ const Stack = createStackNavigator();
       </Stack.Navigator>
     </NavigationContainer>
   );
+}
 
 
 export default Routes;
